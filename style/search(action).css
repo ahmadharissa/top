@@ -1,0 +1,42 @@
+*
+{
+	box-sizing:  border-box;
+}
+
+body
+{
+	background-image: url("../image/body.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%
+}
+
+h1 , p , div , h2
+{
+	text-align: center;
+}
+
+h1 
+{
+	color: red ;
+	text-shadow: 1px 1px 1px white ;
+	border-bottom: 1px dashed red;
+	background-color: black;
+	border-radius: 15px;
+}
+
+img
+{
+	border-radius: 15px;
+	display: inline-block;
+}
+
+hr
+{
+	border: 1px dashed red;
+}
+
+h2
+{
+	font-style: italic;
+	text-shadow: 1px 1px 1px black ;
+}

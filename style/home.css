@@ -1,0 +1,123 @@
+*
+{
+	box-sizing:  border-box;
+}
+
+.parent
+{
+	background-image: url("../image/header.jpg");
+	background-attachment: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+.top
+{
+	font-weight: bold;
+	font-family: Brush Script MT;
+	font-size: 36px;
+}
+
+nav
+{
+	text-align: right;
+	padding: 12px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	display: inline;
+	margin: 5px;
+	font-size: 25px;
+}
+
+.parent > a
+{
+	float: left
+}
+
+a:hover
+{
+	color: rgba(0,255,255,0.5);
+}
+
+
+a[target="_self"]
+{
+	color: red;
+	font-size: 15px;
+}
+
+a:active
+{
+	font-weight: bold;
+}
+
+
+
+
+
+body
+{
+	background-image: url("../image/body.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%
+}
+
+p
+{
+	font-size: 200% ;
+	background-color: rgba(119,187,255,0.5);
+	font-style: italic;
+	font-weight: :60%;
+	border-radius: 15px;
+}
+
+
+img
+{
+	border-radius: 15px;
+	display: inline-block;
+}
+
+div 
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.child
+{
+	background-image: url("../image/header.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+}
+
+td
+{
+	text-align: center;
+}
+
+.round
+{
+	border-radius: 50%;
+}
+
+.paragraph
+{
+	font-weight: bold;
+	font-style: italic;
+}

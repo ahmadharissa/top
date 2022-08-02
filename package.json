@@ -1,0 +1,24 @@
+{
+  "name": "top",
+  "version": "1.0.0",
+  "description": "this is a test node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ahmadharissa@bitbucket.org/ahmadharissa/top.git"
+  },
+  "author": "ahmad harissa",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ahmadharissa/top#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

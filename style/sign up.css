@@ -1,0 +1,134 @@
+*
+{
+	box-sizing:  border-box;
+}
+/*	
+	@media print{}
+	@media screen{}
+	@media all{}
+	@import url();
+*/
+.parent
+{
+	background-image: url("../image/header.jpg");
+	background-attachment: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+.top
+{
+	font-weight: bold;
+	font-family: Brush Script MT;
+	font-size: 36px;
+}
+
+nav
+{
+	text-align: right;
+	padding: 12px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	display: inline;
+	margin: 5px;
+	font-size: 25px;
+}
+
+.parent > a
+{
+	float: left
+}
+
+a:hover
+{
+	color: rgba(0,255,255,0.5);
+}
+
+
+a[target="_self"]
+{
+	color: red;
+	font-size: 15px;
+}
+
+a:active
+{
+	font-weight: bold;
+}
+
+
+
+
+
+
+body
+{
+	background-image: url("../image/body.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%
+}
+
+.type
+{
+	transition: all .5s ease-in-out;
+	border: 1px solid black;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 10px	
+}
+
+.type:hover
+{
+	transform: rotate(360deg);
+}
+
+.tabl
+{
+	background-image: url("../image/signUp.jpg");
+	background-size: 100%;
+	display: none;
+	width: 50%;
+	margin: 150px auto; 
+	border: 6px solid rgba(0,255,255,0.5);
+	box-shadow: 20px 20px 10px rgba(0,255,255,0.5);
+}
+
+
+
+
+
+
+
+.child
+{
+	background-image: url("../image/header.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+
+}
+
+td
+{
+	text-align: center;
+}
+
+.round
+{
+	border-radius: 50%;
+}
+
+.paragraph
+{
+	font-weight: bold;
+	font-style: italic;
+}
